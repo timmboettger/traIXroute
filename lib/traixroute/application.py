@@ -174,6 +174,8 @@ class traIXroute():
 
         # Initiates the tool with the output directories and all the proper configurations.
         homepath = os.path.expanduser('~') + '/traixroute'
+        homepath = 'traixroute_config'
+
         if not os.path.exists(homepath + '/output'):
             os.makedirs(homepath + '/output')
             
